@@ -1,5 +1,12 @@
 # 学习档案管理
 ## 技术栈
-### Node.js@16.18.1 MongoDB art-template 
+### Node.js@16.18.1 MongoDB art-template serve-static router moment
 ## 运行
 ### npm install 
+## 问题
+### 第三方模块 server-static 实现静态资源访问服务
+#### 步骤：
+#### 1、引入serve-static模块获取创建静态资源服务功能的方法
+#### 2、调用方法创建静态资源服务并指定静态资源服务目录
+#### 3、启用静态资源服务功能
+#### 4、该模块的作用是将目标目录的内容处理到一个文件夹中，以便可以让页面不用特别指明地址去获取到资源
